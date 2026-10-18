@@ -1,10 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-label="Aesthetic Manga Panel Quote">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="Philosophical Maxim">
   <defs>
-    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#161b22"/>
-      <stop offset="50%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#161b22"/>
-    </linearGradient>
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="50%" stop-color="#58a6ff"/>
@@ -12,36 +7,24 @@
     </linearGradient>
   </defs>
   <style>
-    .bg { fill: url(#panelGrad); stroke: #30363d; stroke-width: 1.5px; rx: 8px; }
-    .panel-frame { stroke: #484f58; stroke-width: 2px; fill: none; }
-    .kanji { font-family: 'Hiragino Mincho Pro', 'Yu Mincho', serif; font-size: 72px; fill: #ffffff; fill-opacity: 0.05; }
-    .headline { font-family: 'Impact', -apple-system, 'Segoe UI', sans-serif; font-size: 32px; letter-spacing: 2px; fill: url(#textGrad); }
-    .subtext { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', serif; font-size: 14px; fill: #8b949e; letter-spacing: 1px; font-style: italic; }
-    .quote-author { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; fill: #58a6ff; font-weight: 600; }
+    .kanji { font-family: 'Hiragino Mincho Pro', 'Yu Mincho', serif; font-size: 54px; fill: #ffffff; fill-opacity: 0.05; }
+    .headline { font-family: 'Impact', -apple-system, 'Segoe UI', sans-serif; font-size: 26px; letter-spacing: 2px; fill: url(#textGrad); }
+    .subtext { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', serif; font-size: 13.5px; fill: #8b949e; letter-spacing: 0.5px; font-style: italic; }
+    .quote-author { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 11px; fill: #58a6ff; font-weight: 600; }
   </style>
 
-  <rect width="958" height="258" x="1" y="1" class="bg"/>
+  <!-- Watermark Kanji: 迷えば、敗れる (Hesitation is defeat) -->
+  <text x="20" y="95" class="kanji">&#x8FF7;&#x3048;&#x3070;&#x3001;&#x6557;&#x308c;&#x308b;</text>
 
-  <!-- Background Watermark Kanji: 迷えば、敗れる (Hesitation is defeat) -->
-  <text x="80" y="160" class="kanji">&#x8FF7;&#x3048;&#x3070;&#x3001;&#x6557;&#x308c;&#x308b;</text>
-
-  <!-- Speedlines decoration -->
-  <g stroke="#30363d" stroke-width="1" opacity="0.4">
-    <line x1="40" y1="30" x2="180" y2="30"/>
-    <line x1="20" y1="50" x2="120" y2="50"/>
-    <line x1="820" y1="210" x2="920" y2="210"/>
-    <line x1="780" y1="230" x2="940" y2="230"/>
-  </g>
-
-  <!-- Manga text block -->
-  <g transform="translate(60, 60)">
-    <text x="0" y="32" class="headline">&#x201C;HESITATION IS DEFEAT. BUT INGENUITY IS ETERNAL.&#x201D;</text>
-    <text x="0" y="70" class="subtext">&#x201C;There are few things as tragic as a victory won by deception, except a defeat suffered through incompetence.&#x201D;</text>
+  <!-- Content (NO border, NO lines, NO background rect) -->
+  <g transform="translate(10, 30)">
+    <text x="0" y="24" class="headline">&#x201C;HESITATION IS DEFEAT. BUT INGENUITY IS ETERNAL.&#x201D;</text>
+    <text x="0" y="54" class="subtext">&#x201C;There are few things as tragic as a victory won by deception, except a defeat suffered through incompetence.&#x201D;</text>
     
-    <g transform="translate(0, 110)">
-      <circle cx="4" cy="5" r="4" fill="#58a6ff"/>
-      <text x="16" y="9" class="quote-author">REINHARD VON LOHENGRAMM &#xB7; ISSHIN ASHINA &#xB7; FRANZ KAFKA</text>
-      <text x="540" y="9" font-family="-apple-system, BlinkMacSystemFont" font-size="11" fill="#484f58">&#x2014; Engineered by nabinnnnwongism</text>
+    <g transform="translate(0, 84)">
+      <circle cx="4" cy="5" r="3.5" fill="#58a6ff"/>
+      <text x="14" y="9" class="quote-author">REINHARD VON LOHENGRAMM &#xB7; ISSHIN ASHINA &#xB7; FRANZ KAFKA</text>
+      <text x="500" y="9" font-family="-apple-system, BlinkMacSystemFont" font-size="11" fill="#484f58">&#x2014; Engineered by nabinnnnwongism</text>
     </g>
   </g>
 </svg>

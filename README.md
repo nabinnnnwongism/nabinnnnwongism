@@ -10,25 +10,19 @@
 
 ---
 
-> **Autonomous Systems & Neural Behavioral Architecture** · *Pioneering cognitive heuristics and distributed tooling.*
+> **Autonomous Systems &amp; Neural Behavioral Architecture** · *Pioneering cognitive heuristics and distributed tooling.*
 >
 > - 🧠 **Core Research**: Neural chess agent conditioned on human Elo distributions ([`hlc-human-like-chess`](https://github.com/nabinnnnwongism/hlc-human-like-chess))
 > - ⚡ **Systems Utility**: High-performance modular developer engine ([`Wongtool`](https://github.com/nabinnnnwongism/Wongtool))
 > - ♟️ **Live Bot**: Running on Lichess as an autonomous BOT account [`@MyHLCBot`](https://lichess.org/@/MyHLCBot)
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="engineering.svg" width="100%" alt="Engineering &amp; Systems Architecture" />
-    </td>
-    <td width="50%" valign="top">
-      <img src="medias.svg" width="100%" alt="Media, Characters &amp; Audio Curations" />
-    </td>
-  </tr>
-</table>
+[<img align="left" width="49%" alt="Engineering &amp; Systems Architecture" src="engineering.svg">](#)
+[<img align="right" width="49%" alt="Media, Characters &amp; Audio Curations" src="medias.svg">](#)
 
-<p align="center">
-  <img src="manga_panel.svg" width="100%" alt="Philosophical Maxims" />
-</p>
+<br clear="both" />
+
+[<img width="100%" alt="Philosophical Maxims" src="manga_panel.svg">](#)
+
+<br clear="both" />
 
 <sub>Infographics inspired by <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> and engineered for <a href="https://github.com/nabinnnnwongism">nabinnnnwongism</a>.</sub>
