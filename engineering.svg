@@ -1,118 +1,268 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="450" height="840" viewBox="0 0 450 840" role="img" aria-label="Systems Architecture &amp; Engineering Metrics">
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="980" viewBox="0 0 450 980" role="img" aria-label="Systems Architecture &amp; Engineering Metrics">
   <style>
     svg { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; color: #8b949e; }
-    .heading { font-size: 15px; font-weight: 600; fill: #58a6ff; }
+    .heading { font-size: 14.5px; font-weight: 600; fill: #58a6ff; }
     .subheading { font-size: 13px; font-weight: 600; fill: #58a6ff; }
     .title { font-size: 13px; font-weight: 600; fill: #58a6ff; }
     .text-main { font-size: 12px; fill: #c9d1d9; }
     .text-muted { font-size: 11px; fill: #8b949e; }
     .quote { font-style: italic; font-size: 11px; fill: #8b949e; }
-    .badge { font-size: 10px; font-weight: 600; fill: #7ee787; }
+    .tag { font-size: 9.5px; font-weight: 600; }
     .icon { fill: #58a6ff; }
-    .icon-muted { fill: #8b949e; }
   </style>
 
-  <!-- SECTION 1: ARCHITECTURE & SYSTEMS OVERVIEW -->
+  <!-- 1. PROFILE HEADER -->
   <g transform="translate(10, 24)">
-    <svg width="16" height="16" viewBox="0 0 16 16" class="icon">
-      <path fill-rule="evenodd" d="M1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0114.25 16H1.75A1.75 1.75 0 010 14.25V1.75zM9.06 4.47a.75.75 0 00-1.06 0L5.22 7.25a.75.75 0 000 1.06l2.78 2.78a.75.75 0 101.06-1.06L6.81 7.78l2.25-2.25a.75.75 0 000-1.06zm2.47 0a.75.75 0 000 1.06l2.25 2.25-2.25 2.25a.75.75 0 101.06 1.06l2.78-2.78a.75.75 0 000-1.06l-2.78-2.78a.75.75 0 00-1.06 0z"/>
-    </svg>
-    <text x="24" y="13" class="heading">Systems Architecture &amp; Engineering</text>
-    <text x="24" y="30" class="text-muted">Autonomous agents · Behavioral heuristics · Distributed utilities</text>
+    <circle cx="8" cy="8" r="8" fill="#58a6ff"/>
+    <text x="8" y="12" text-anchor="middle" font-size="10" font-weight="bold" fill="#0d1117">N</text>
+    <text x="24" y="13" class="heading">Nabin Wong</text>
+    <text x="24" y="28" class="text-muted">&#x23F1; Joined GitHub 2025 &#xB7; &#x1F465; Contributed to 6 repositories</text>
   </g>
 
-  <!-- SECTION 2: CORE FOUNDATIONS (NO BOXES, NO DIVIDERS) -->
-  <g transform="translate(10, 80)">
+  <!-- 2. CONTRIBUTIONS CALENDAR (3D ISOMETRIC CUBES + STREAKS) -->
+  <g transform="translate(10, 68)">
     <svg width="15" height="15" viewBox="0 0 16 16" class="icon">
-      <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1.5a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-2.75H7.25A.75.75 0 016.5 7.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
+      <path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h-2a.25.25 0 00-.25.25v1.5h11v-1.5a.25.25 0 00-.25-.25h-8.75zM2.5 6.75v7.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25v-7.5h-11z"/>
     </svg>
-    <text x="22" y="12" class="subheading">Core Engineering Principles</text>
+    <text x="22" y="12" class="subheading">Contributions calendar</text>
 
-    <g transform="translate(4, 26)">
-      <circle cx="4" cy="5" r="3" fill="#58a6ff"/>
-      <text x="14" y="9" class="text-main" font-weight="600">Deterministic Pipelines &amp; Neural Sampling</text>
-      <text x="14" y="24" class="text-muted">Entropy-aware pacing models with Maia-3 79M inference</text>
+    <!-- Isometric 3D Matrix -->
+    <g transform="translate(0, 16)">
+      
+            <polygon points="41,36 50,41 50,42 41,37" fill="#0d1117"/>
+            <polygon points="50,41 59,36 59,37 50,42" fill="#161b22"/>
+            <polygon points="50,31 59,36 50,41 41,36" fill="#161b22"/>
+            <polygon points="32,39 41,44 41,47 32,42" fill="#002a14"/>
+            <polygon points="41,44 50,39 50,42 41,47" fill="#06361e"/>
+            <polygon points="41,34 50,39 41,44 32,39" fill="#0e4429"/>
+            <polygon points="23,44 32,49 32,52 23,47" fill="#002a14"/>
+            <polygon points="32,49 41,44 41,47 32,52" fill="#06361e"/>
+            <polygon points="32,39 41,44 32,49 23,44" fill="#0e4429"/>
+            <polygon points="14,46 23,51 23,57 14,52" fill="#004720"/>
+            <polygon points="23,51 32,46 32,52 23,57" fill="#005527"/>
+            <polygon points="23,41 32,46 23,51 14,46" fill="#006d32"/>
+            <polygon points="5,54 14,59 14,62 5,57" fill="#002a14"/>
+            <polygon points="14,59 23,54 23,57 14,62" fill="#06361e"/>
+            <polygon points="14,49 23,54 14,59 5,54" fill="#0e4429"/>
+            <polygon points="50,41 59,46 59,47 50,42" fill="#0d1117"/>
+            <polygon points="59,46 68,41 68,42 59,47" fill="#161b22"/>
+            <polygon points="59,36 68,41 59,46 50,41" fill="#161b22"/>
+            <polygon points="41,46 50,51 50,52 41,47" fill="#0d1117"/>
+            <polygon points="50,51 59,46 59,47 50,52" fill="#161b22"/>
+            <polygon points="50,41 59,46 50,51 41,46" fill="#161b22"/>
+            <polygon points="32,46 41,51 41,57 32,52" fill="#004720"/>
+            <polygon points="41,51 50,46 50,52 41,57" fill="#005527"/>
+            <polygon points="41,41 50,46 41,51 32,46" fill="#006d32"/>
+            <polygon points="23,54 32,59 32,62 23,57" fill="#002a14"/>
+            <polygon points="32,59 41,54 41,57 32,62" fill="#06361e"/>
+            <polygon points="32,49 41,54 32,59 23,54" fill="#0e4429"/>
+            <polygon points="14,61 23,66 23,67 14,62" fill="#0d1117"/>
+            <polygon points="23,66 32,61 32,62 23,67" fill="#161b22"/>
+            <polygon points="23,56 32,61 23,66 14,61" fill="#161b22"/>
+            <polygon points="59,44 68,49 68,52 59,47" fill="#002a14"/>
+            <polygon points="68,49 77,44 77,47 68,52" fill="#06361e"/>
+            <polygon points="68,39 77,44 68,49 59,44" fill="#0e4429"/>
+            <polygon points="50,46 59,51 59,57 50,52" fill="#004720"/>
+            <polygon points="59,51 68,46 68,52 59,57" fill="#005527"/>
+            <polygon points="59,41 68,46 59,51 50,46" fill="#006d32"/>
+            <polygon points="41,48 50,53 50,62 41,57" fill="#1b782f"/>
+            <polygon points="50,53 59,48 59,57 50,62" fill="#1f8d37"/>
+            <polygon points="50,43 59,48 50,53 41,48" fill="#26a641"/>
+            <polygon points="32,59 41,64 41,67 32,62" fill="#002a14"/>
+            <polygon points="41,64 50,59 50,62 41,67" fill="#06361e"/>
+            <polygon points="41,54 50,59 41,64 32,59" fill="#0e4429"/>
+            <polygon points="23,64 32,69 32,72 23,67" fill="#002a14"/>
+            <polygon points="32,69 41,64 41,67 32,72" fill="#06361e"/>
+            <polygon points="32,59 41,64 32,69 23,64" fill="#0e4429"/>
+            <polygon points="68,51 77,56 77,57 68,52" fill="#0d1117"/>
+            <polygon points="77,56 86,51 86,52 77,57" fill="#161b22"/>
+            <polygon points="77,46 86,51 77,56 68,51" fill="#161b22"/>
+            <polygon points="59,54 68,59 68,62 59,57" fill="#002a14"/>
+            <polygon points="68,59 77,54 77,57 68,62" fill="#06361e"/>
+            <polygon points="68,49 77,54 68,59 59,54" fill="#0e4429"/>
+            <polygon points="50,56 59,61 59,67 50,62" fill="#004720"/>
+            <polygon points="59,61 68,56 68,62 59,67" fill="#005527"/>
+            <polygon points="59,51 68,56 59,61 50,56" fill="#006d32"/>
+            <polygon points="41,61 50,66 50,72 41,67" fill="#004720"/>
+            <polygon points="50,66 59,61 59,67 50,72" fill="#005527"/>
+            <polygon points="50,56 59,61 50,66 41,61" fill="#006d32"/>
+            <polygon points="32,71 41,76 41,77 32,72" fill="#0d1117"/>
+            <polygon points="41,76 50,71 50,72 41,77" fill="#161b22"/>
+            <polygon points="41,66 50,71 41,76 32,71" fill="#161b22"/>
+            <polygon points="77,54 86,59 86,62 77,57" fill="#002a14"/>
+            <polygon points="86,59 95,54 95,57 86,62" fill="#06361e"/>
+            <polygon points="86,49 95,54 86,59 77,54" fill="#0e4429"/>
+            <polygon points="68,56 77,61 77,67 68,62" fill="#004720"/>
+            <polygon points="77,61 86,56 86,62 77,67" fill="#005527"/>
+            <polygon points="77,51 86,56 77,61 68,56" fill="#006d32"/>
+            <polygon points="59,58 68,63 68,72 59,67" fill="#1b782f"/>
+            <polygon points="68,63 77,58 77,67 68,72" fill="#1f8d37"/>
+            <polygon points="68,53 77,58 68,63 59,58" fill="#26a641"/>
+            <polygon points="50,66 59,71 59,77 50,72" fill="#004720"/>
+            <polygon points="59,71 68,66 68,72 59,77" fill="#005527"/>
+            <polygon points="59,61 68,66 59,71 50,66" fill="#006d32"/>
+            <polygon points="41,74 50,79 50,82 41,77" fill="#002a14"/>
+            <polygon points="50,79 59,74 59,77 50,82" fill="#06361e"/>
+            <polygon points="50,69 59,74 50,79 41,74" fill="#0e4429"/>
+            <polygon points="86,59 95,64 95,67 86,62" fill="#002a14"/>
+            <polygon points="95,64 104,59 104,62 95,67" fill="#06361e"/>
+            <polygon points="95,54 104,59 95,64 86,59" fill="#0e4429"/>
+            <polygon points="77,66 86,71 86,72 77,67" fill="#0d1117"/>
+            <polygon points="86,71 95,66 95,67 86,72" fill="#161b22"/>
+            <polygon points="86,61 95,66 86,71 77,66" fill="#161b22"/>
+            <polygon points="68,69 77,74 77,77 68,72" fill="#002a14"/>
+            <polygon points="77,74 86,69 86,72 77,77" fill="#06361e"/>
+            <polygon points="77,64 86,69 77,74 68,69" fill="#0e4429"/>
+            <polygon points="59,74 68,79 68,82 59,77" fill="#002a14"/>
+            <polygon points="68,79 77,74 77,77 68,82" fill="#06361e"/>
+            <polygon points="68,69 77,74 68,79 59,74" fill="#0e4429"/>
+            <polygon points="50,81 59,86 59,87 50,82" fill="#0d1117"/>
+            <polygon points="59,86 68,81 68,82 59,87" fill="#161b22"/>
+            <polygon points="59,76 68,81 59,86 50,81" fill="#161b22"/>
+            <polygon points="95,61 104,66 104,72 95,67" fill="#004720"/>
+            <polygon points="104,66 113,61 113,67 104,72" fill="#005527"/>
+            <polygon points="104,56 113,61 104,66 95,61" fill="#006d32"/>
+            <polygon points="86,63 95,68 95,77 86,72" fill="#1b782f"/>
+            <polygon points="95,68 104,63 104,72 95,77" fill="#1f8d37"/>
+            <polygon points="95,58 104,63 95,68 86,63" fill="#26a641"/>
+            <polygon points="77,65 86,70 86,82 77,77" fill="#239a3b"/>
+            <polygon points="86,70 95,65 95,77 86,82" fill="#2cb647"/>
+            <polygon points="86,60 95,65 86,70 77,65" fill="#39d353"/>
+            <polygon points="68,76 77,81 77,87 68,82" fill="#004720"/>
+            <polygon points="77,81 86,76 86,82 77,87" fill="#005527"/>
+            <polygon points="77,71 86,76 77,81 68,76" fill="#006d32"/>
+            <polygon points="59,84 68,89 68,92 59,87" fill="#002a14"/>
+            <polygon points="68,89 77,84 77,87 68,92" fill="#06361e"/>
+            <polygon points="68,79 77,84 68,89 59,84" fill="#0e4429"/>
+            <polygon points="104,71 113,76 113,77 104,72" fill="#0d1117"/>
+            <polygon points="113,76 122,71 122,72 113,77" fill="#161b22"/>
+            <polygon points="113,66 122,71 113,76 104,71" fill="#161b22"/>
+            <polygon points="95,74 104,79 104,82 95,77" fill="#002a14"/>
+            <polygon points="104,79 113,74 113,77 104,82" fill="#06361e"/>
+            <polygon points="104,69 113,74 104,79 95,74" fill="#0e4429"/>
+            <polygon points="86,76 95,81 95,87 86,82" fill="#004720"/>
+            <polygon points="95,81 104,76 104,82 95,87" fill="#005527"/>
+            <polygon points="95,71 104,76 95,81 86,76" fill="#006d32"/>
+            <polygon points="77,84 86,89 86,92 77,87" fill="#002a14"/>
+            <polygon points="86,89 95,84 95,87 86,92" fill="#06361e"/>
+            <polygon points="86,79 95,84 86,89 77,84" fill="#0e4429"/>
+            <polygon points="68,91 77,96 77,97 68,92" fill="#0d1117"/>
+            <polygon points="77,96 86,91 86,92 77,97" fill="#161b22"/>
+            <polygon points="77,86 86,91 77,96 68,91" fill="#161b22"/>
+            <polygon points="113,74 122,79 122,82 113,77" fill="#002a14"/>
+            <polygon points="122,79 131,74 131,77 122,82" fill="#06361e"/>
+            <polygon points="122,69 131,74 122,79 113,74" fill="#0e4429"/>
+            <polygon points="104,76 113,81 113,87 104,82" fill="#004720"/>
+            <polygon points="113,81 122,76 122,82 113,87" fill="#005527"/>
+            <polygon points="113,71 122,76 113,81 104,76" fill="#006d32"/>
+            <polygon points="95,78 104,83 104,92 95,87" fill="#1b782f"/>
+            <polygon points="104,83 113,78 113,87 104,92" fill="#1f8d37"/>
+            <polygon points="104,73 113,78 104,83 95,78" fill="#26a641"/>
+            <polygon points="86,86 95,91 95,97 86,92" fill="#004720"/>
+            <polygon points="95,91 104,86 104,92 95,97" fill="#005527"/>
+            <polygon points="95,81 104,86 95,91 86,86" fill="#006d32"/>
+            <polygon points="77,94 86,99 86,102 77,97" fill="#002a14"/>
+            <polygon points="86,99 95,94 95,97 86,102" fill="#06361e"/>
+            <polygon points="86,89 95,94 86,99 77,94" fill="#0e4429"/>
+            <polygon points="122,79 131,84 131,87 122,82" fill="#002a14"/>
+            <polygon points="131,84 140,79 140,82 131,87" fill="#06361e"/>
+            <polygon points="131,74 140,79 131,84 122,79" fill="#0e4429"/>
+            <polygon points="113,81 122,86 122,92 113,87" fill="#004720"/>
+            <polygon points="122,86 131,81 131,87 122,92" fill="#005527"/>
+            <polygon points="122,76 131,81 122,86 113,81" fill="#006d32"/>
+            <polygon points="104,83 113,88 113,97 104,92" fill="#1b782f"/>
+            <polygon points="113,88 122,83 122,92 113,97" fill="#1f8d37"/>
+            <polygon points="113,78 122,83 113,88 104,83" fill="#26a641"/>
+            <polygon points="95,94 104,99 104,102 95,97" fill="#002a14"/>
+            <polygon points="104,99 113,94 113,97 104,102" fill="#06361e"/>
+            <polygon points="104,89 113,94 104,99 95,94" fill="#0e4429"/>
+            <polygon points="86,101 95,106 95,107 86,102" fill="#0d1117"/>
+            <polygon points="95,106 104,101 104,102 95,107" fill="#161b22"/>
+            <polygon points="95,96 104,101 95,106 86,101" fill="#161b22"/>
+            <polygon points="131,86 140,91 140,92 131,87" fill="#0d1117"/>
+            <polygon points="140,91 149,86 149,87 140,92" fill="#161b22"/>
+            <polygon points="140,81 149,86 140,91 131,86" fill="#161b22"/>
+            <polygon points="122,89 131,94 131,97 122,92" fill="#002a14"/>
+            <polygon points="131,94 140,89 140,92 131,97" fill="#06361e"/>
+            <polygon points="131,84 140,89 131,94 122,89" fill="#0e4429"/>
+            <polygon points="113,91 122,96 122,102 113,97" fill="#004720"/>
+            <polygon points="122,96 131,91 131,97 122,102" fill="#005527"/>
+            <polygon points="122,86 131,91 122,96 113,91" fill="#006d32"/>
+            <polygon points="104,99 113,104 113,107 104,102" fill="#002a14"/>
+            <polygon points="113,104 122,99 122,102 113,107" fill="#06361e"/>
+            <polygon points="113,94 122,99 113,104 104,99" fill="#0e4429"/>
+            <polygon points="95,106 104,111 104,112 95,107" fill="#0d1117"/>
+            <polygon points="104,111 113,106 113,107 104,112" fill="#161b22"/>
+            <polygon points="104,101 113,106 104,111 95,106" fill="#161b22"/>
+            <polygon points="140,89 149,94 149,97 140,92" fill="#002a14"/>
+            <polygon points="149,94 158,89 158,92 149,97" fill="#06361e"/>
+            <polygon points="149,84 158,89 149,94 140,89" fill="#0e4429"/>
+            <polygon points="131,88 140,93 140,102 131,97" fill="#1b782f"/>
+            <polygon points="140,93 149,88 149,97 140,102" fill="#1f8d37"/>
+            <polygon points="140,83 149,88 140,93 131,88" fill="#26a641"/>
+            <polygon points="122,90 131,95 131,107 122,102" fill="#239a3b"/>
+            <polygon points="131,95 140,90 140,102 131,107" fill="#2cb647"/>
+            <polygon points="131,85 140,90 131,95 122,90" fill="#39d353"/>
+            <polygon points="113,101 122,106 122,112 113,107" fill="#004720"/>
+            <polygon points="122,106 131,101 131,107 122,112" fill="#005527"/>
+            <polygon points="122,96 131,101 122,106 113,101" fill="#006d32"/>
+            <polygon points="104,109 113,114 113,117 104,112" fill="#002a14"/>
+            <polygon points="113,114 122,109 122,112 113,117" fill="#06361e"/>
+            <polygon points="113,104 122,109 113,114 104,109" fill="#0e4429"/>
+            <polygon points="149,94 158,99 158,102 149,97" fill="#002a14"/>
+            <polygon points="158,99 167,94 167,97 158,102" fill="#06361e"/>
+            <polygon points="158,89 167,94 158,99 149,94" fill="#0e4429"/>
+            <polygon points="140,96 149,101 149,107 140,102" fill="#004720"/>
+            <polygon points="149,101 158,96 158,102 149,107" fill="#005527"/>
+            <polygon points="149,91 158,96 149,101 140,96" fill="#006d32"/>
+            <polygon points="131,101 140,106 140,112 131,107" fill="#004720"/>
+            <polygon points="140,106 149,101 149,107 140,112" fill="#005527"/>
+            <polygon points="140,96 149,101 140,106 131,101" fill="#006d32"/>
+            <polygon points="122,109 131,114 131,117 122,112" fill="#002a14"/>
+            <polygon points="131,114 140,109 140,112 131,117" fill="#06361e"/>
+            <polygon points="131,104 140,109 131,114 122,109" fill="#0e4429"/>
+            <polygon points="113,114 122,119 122,122 113,117" fill="#002a14"/>
+            <polygon points="122,119 131,114 131,117 122,122" fill="#06361e"/>
+            <polygon points="122,109 131,114 122,119 113,114" fill="#0e4429"/>
+            <polygon points="158,101 167,106 167,107 158,102" fill="#0d1117"/>
+            <polygon points="167,106 176,101 176,102 167,107" fill="#161b22"/>
+            <polygon points="167,96 176,101 167,106 158,101" fill="#161b22"/>
+            <polygon points="149,104 158,109 158,112 149,107" fill="#002a14"/>
+            <polygon points="158,109 167,104 167,107 158,112" fill="#06361e"/>
+            <polygon points="158,99 167,104 158,109 149,104" fill="#0e4429"/>
+            <polygon points="140,103 149,108 149,117 140,112" fill="#1b782f"/>
+            <polygon points="149,108 158,103 158,112 149,117" fill="#1f8d37"/>
+            <polygon points="149,98 158,103 149,108 140,103" fill="#26a641"/>
+            <polygon points="131,111 140,116 140,122 131,117" fill="#004720"/>
+            <polygon points="140,116 149,111 149,117 140,122" fill="#005527"/>
+            <polygon points="140,106 149,111 140,116 131,111" fill="#006d32"/>
+            <polygon points="122,119 131,124 131,127 122,122" fill="#002a14"/>
+            <polygon points="131,124 140,119 140,122 131,127" fill="#06361e"/>
+            <polygon points="131,114 140,119 131,124 122,119" fill="#0e4429"/>
     </g>
 
-    <g transform="translate(4, 62)">
-      <circle cx="4" cy="5" r="3" fill="#bc8cff"/>
-      <text x="14" y="9" class="text-main" font-weight="600">Stateful Autonomous Telemetry</text>
-      <text x="14" y="24" class="text-muted">Session memory, fatigue tracking, and Elo self-calibration</text>
-    </g>
+    <!-- Streak stats beside/under calendar -->
+    <g transform="translate(240, 24)">
+      <text x="0" y="10" font-size="12" font-weight="600" fill="#58a6ff">&#x1F4C7; Commits streaks</text>
+      <text x="0" y="26" class="text-muted">&#x23F1; Current streak: <tspan fill="#c9d1d9">12 days</tspan></text>
+      <text x="0" y="42" class="text-muted">&#x2744;&#xFE0F; Best streak: <tspan fill="#c9d1d9">42 days</tspan></text>
 
-    <g transform="translate(4, 98)">
-      <circle cx="4" cy="5" r="3" fill="#7ee787"/>
-      <text x="14" y="9" class="text-main" font-weight="600">High-Concurrency Async Dispatch</text>
-      <text x="14" y="24" class="text-muted">Non-blocking multimedia stream ingestion &amp; modular relays</text>
+      <text x="0" y="66" font-size="12" font-weight="600" fill="#58a6ff">&#x1F441;&#xFE0F; Commits per day</text>
+      <text x="0" y="82" class="text-muted">&#x2934;&#xFE0F; Highest in a day at 18</text>
+      <text x="0" y="98" class="text-muted">&#x2797; Average per day ~4.2</text>
     </g>
   </g>
 
-  <!-- SECTION 3: NOTABLE PROJECTS (NO BOXES, CLEAN LIST LIKE LOWLIGHTER) -->
-  <g transform="translate(10, 230)">
+  <!-- 3. LANGUAGES BREAKDOWN (LOWLIGHTER SIGNATURE) -->
+  <g transform="translate(10, 215)">
     <svg width="15" height="15" viewBox="0 0 16 16" class="icon">
-      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8V1.5z"/>
+      <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L3.97 14.47a.75.75 0 01-1.22-.53v-2.19a.25.25 0 01-.25-.25v-8.5zM0 2.75C0 1.784.784 1 1.75 1h12.5C15.216 1 16 1.784 16 2.75v8.5A1.75 1.75 0 0114.25 13H11v1.75c0 1.34-1.62 2-2.56 1.06L4.88 12.25H1.75A1.75 1.75 0 010 10.5v-7.75z"/>
     </svg>
-    <text x="22" y="12" class="subheading">Active Repositories &amp; Deployments</text>
+    <text x="22" y="12" class="subheading">6 Core Languages</text>
+    <text x="22" y="28" class="text-muted">Most used languages &#xB7; estimation from 220kb of code across repos</text>
 
-    <!-- Repo 1: HLC -->
-    <g transform="translate(4, 26)">
-      <svg width="13" height="13" viewBox="0 0 16 16" fill="#8b949e" y="-1">
-        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8V1.5z"/>
-      </svg>
-      <text x="18" y="10" class="title">hlc-human-like-chess</text>
-      <text x="18" y="26" class="text-muted">A neural chess agent engineered for human-like behavioral fidelity</text>
-      <circle cx="22" cy="40" r="3.5" fill="#3572A5"/>
-      <text x="30" y="43" class="text-muted">Python 99%</text>
-      <text x="110" y="43" class="text-muted">· 87 Tests Passed</text>
-      <text x="215" y="43" font-size="11" fill="#7ee787">· Lichess BOT: MyHLCBot</text>
-    </g>
-
-    <!-- Repo 2: Wongtool -->
-    <g transform="translate(4, 82)">
-      <svg width="13" height="13" viewBox="0 0 16 16" fill="#8b949e" y="-1">
-        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8V1.5z"/>
-      </svg>
-      <text x="18" y="10" class="title">Wongtool</text>
-      <text x="18" y="26" class="text-muted">Modular systems automation, developer workflow &amp; utility suite</text>
-      <circle cx="22" cy="40" r="3.5" fill="#f1e05a"/>
-      <text x="30" y="43" class="text-muted">JavaScript / Node.js</text>
-      <text x="160" y="43" class="text-muted">· MIT Licensed</text>
-    </g>
-
-    <!-- Repo 3: Entertainment-aggregator -->
-    <g transform="translate(4, 138)">
-      <svg width="13" height="13" viewBox="0 0 16 16" fill="#8b949e" y="-1">
-        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8V1.5z"/>
-      </svg>
-      <text x="18" y="10" class="title">Entertainment-aggregator</text>
-      <text x="18" y="26" class="text-muted">High-throughput multimedia feed aggregator &amp; content engine</text>
-      <circle cx="22" cy="40" r="3.5" fill="#f1e05a"/>
-      <text x="30" y="43" class="text-muted">JavaScript</text>
-      <text x="105" y="43" class="text-muted">· Stream Pipeline</text>
-    </g>
-
-    <!-- Repo 4: AI-Media-Operator -->
-    <g transform="translate(4, 194)">
-      <svg width="13" height="13" viewBox="0 0 16 16" fill="#8b949e" y="-1">
-        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8V1.5z"/>
-      </svg>
-      <text x="18" y="10" class="title">AI-Media-Operator</text>
-      <text x="18" y="26" class="text-muted">Automated vision operator for intelligent media ingestion</text>
-      <circle cx="22" cy="40" r="3.5" fill="#e34c26"/>
-      <text x="30" y="43" class="text-muted">HTML5 / JS</text>
-      <text x="105" y="43" class="text-muted">· Autonomous UI</text>
-    </g>
-  </g>
-
-  <!-- SECTION 4: LANGUAGES SPECTRUM (LIKE LOWLIGHTER'S LANGUAGES PLUGIN) -->
-  <g transform="translate(10, 485)">
-    <svg width="15" height="15" viewBox="0 0 16 16" class="icon">
-      <path fill-rule="evenodd" d="M1 2.75A1.75 1.75 0 012.75 1h10.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 15H2.75A1.75 1.75 0 011 13.25V2.75zm1.75-.25a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V2.75a.25.25 0 00-.25-.25H2.75zM7.25 8a.75.75 0 01.75-.75h3.5a.75.75 0 010 1.5H8A.75.75 0 017.25 8zm-2.5 0a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 014.75 8zm2.5 3a.75.75 0 01.75-.75h3.5a.75.75 0 010 1.5H8a.75.75 0 01-.75-.75zm-2.5 0a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5a.75.75 0 01-.75-.75zM4.75 5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"/>
-    </svg>
-    <text x="22" y="12" class="subheading">Core Languages Spectrum</text>
-
-    <!-- Horizontal progress bar -->
-    <g transform="translate(4, 26)">
+    <!-- Progress bar -->
+    <g transform="translate(4, 38)">
       <rect width="410" height="7" rx="3.5" fill="#21262d"/>
       <rect width="205" height="7" rx="3.5" fill="#3572A5"/>
       <rect x="205" width="135" height="7" fill="#f1e05a"/>
@@ -120,41 +270,261 @@
       <rect x="390" width="20" height="7" rx="3.5" fill="#3178c6"/>
     </g>
 
-    <g transform="translate(4, 48)">
+    <g transform="translate(4, 58)">
       <circle cx="4" cy="5" r="3.5" fill="#3572A5"/>
-      <text x="14" y="9" class="text-muted">Python 48.6%</text>
+      <text x="14" y="9" class="text-main">Python</text>
+      <text x="180" y="9" class="text-muted">78.5k lines</text>
+      <text x="270" y="9" class="text-muted">2.15 MB</text>
+      <text x="360" y="9" class="text-main" font-weight="600">48.6%</text>
 
-      <circle cx="115" cy="5" r="3.5" fill="#f1e05a"/>
-      <text x="125" y="9" class="text-muted">JavaScript 32.0%</text>
+      <circle cx="4" cy="23" r="3.5" fill="#f1e05a"/>
+      <text x="14" y="27" class="text-main">JavaScript</text>
+      <text x="180" y="27" class="text-muted">54.2k lines</text>
+      <text x="270" y="27" class="text-muted">1.48 MB</text>
+      <text x="360" y="27" class="text-main" font-weight="600">32.0%</text>
 
-      <circle cx="240" cy="5" r="3.5" fill="#e34c26"/>
-      <text x="250" y="9" class="text-muted">HTML/CSS 13.9%</text>
+      <circle cx="4" cy="41" r="3.5" fill="#e34c26"/>
+      <text x="14" y="45" class="text-main">HTML &amp; CSS</text>
+      <text x="180" y="45" class="text-muted">18.6k lines</text>
+      <text x="270" y="45" class="text-muted">0.52 MB</text>
+      <text x="360" y="45" class="text-main" font-weight="600">13.9%</text>
 
-      <circle cx="355" cy="5" r="3.5" fill="#3178c6"/>
-      <text x="365" y="9" class="text-muted">TS 5.5%</text>
+      <circle cx="4" cy="59" r="3.5" fill="#3178c6"/>
+      <text x="14" y="63" class="text-main">TypeScript</text>
+      <text x="180" y="63" class="text-muted">9.1k lines</text>
+      <text x="270" y="63" class="text-muted">0.24 MB</text>
+      <text x="360" y="63" class="text-main" font-weight="600">5.5%</text>
+    </g>
+
+    <g transform="translate(4, 138)">
+      <text x="0" y="10" font-size="10.5" fill="#e3b341">&#x26A0;&#xFE0F; Reached maximum execution time for analysis, partial results are displayed</text>
     </g>
   </g>
 
-  <!-- SECTION 5: ACHIEVEMENTS & FORTUNE (EXACTLY LIKE LOWLIGHTER) -->
-  <g transform="translate(10, 580)">
-    <!-- Achievements heading -->
+  <!-- 4. NOTABLE CONTRIBUTIONS & COLLABORATIONS -->
+  <g transform="translate(10, 395)">
     <svg width="15" height="15" viewBox="0 0 16 16" class="icon">
-      <path fill-rule="evenodd" d="M11 1.75V3h2.25a.75.75 0 01.75.75v2.5a3.5 3.5 0 01-3.5 3.5H9.982a4.5 4.5 0 01-1.982 2.214V13.5h2.25a.75.75 0 010 1.5h-4.5a.75.75 0 010-1.5H8v-1.536A4.5 4.5 0 016.018 9.75H5.5A3.5 3.5 0 012 6.25v-2.5a.75.75 0 01.75-.75H5V1.75a.75.75 0 01.75-.75h4.5a.75.75 0 01.75.75zm-6 2.75H3.5v1.75a2 2 0 002 2H6V4.5zm5 0V8.5h.5a2 2 0 002-2V4.5H10zm-3.5 5.5a3 3 0 003-3V2.5h-3v7.5z"/>
+      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8V1.5z"/>
     </svg>
-    <text x="22" y="12" class="subheading">Milestones &amp; Achievements</text>
-    <text x="22" y="32" class="text-main">&#x2714; Autonomous Maia-3 79M Lichess Deployment</text>
-    <text x="22" y="48" class="text-muted">&#x2714; 87 Comprehensive Unit &amp; System Tests Passed</text>
-    <text x="22" y="64" class="text-muted">&#x2714; Real-Time Entropy-Aware Pacing Clock Model</text>
+    <text x="22" y="12" class="subheading">Notable contributions</text>
+
+    <!-- Pill badges -->
+    <g transform="translate(4, 26)">
+      <g transform="translate(0, 0)">
+        <rect width="84" height="20" rx="10" fill="#1f6feb" fill-opacity="0.2" stroke="#1f6feb" stroke-width="0.8"/>
+        <text x="42" y="14" text-anchor="middle" class="tag" fill="#58a6ff">&#x1F419; @lichess</text>
+      </g>
+      <g transform="translate(94, 0)">
+        <rect width="110" height="20" rx="10" fill="#238636" fill-opacity="0.2" stroke="#238636" stroke-width="0.8"/>
+        <text x="55" y="14" text-anchor="middle" class="tag" fill="#7ee787">&#x1F9E0; @CSSLab-maia3</text>
+      </g>
+      <g transform="translate(214, 0)">
+        <rect width="104" height="20" rx="10" fill="#a371f7" fill-opacity="0.2" stroke="#a371f7" stroke-width="0.8"/>
+        <text x="52" y="14" text-anchor="middle" class="tag" fill="#bc8cff">&#x265F;&#xFE0F; @python-chess</text>
+      </g>
+    </g>
   </g>
 
-  <!-- SECTION 6: FORTUNE (LOWLIGHTER SIGNATURE) -->
-  <g transform="translate(10, 680)">
+  <!-- 5. COMMUNITY & RESEARCH DISCUSSIONS (LOWLIGHTER PILL BADGES) -->
+  <g transform="translate(10, 465)">
+    <svg width="15" height="15" viewBox="0 0 16 16" class="icon">
+      <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L3.97 14.47a.75.75 0 01-1.22-.53v-2.19a.25.25 0 01-.25-.25v-8.5zM0 2.75C0 1.784.784 1 1.75 1h12.5C15.216 1 16 1.784 16 2.75v8.5A1.75 1.75 0 0114.25 13H11v1.75c0 1.34-1.62 2-2.56 1.06L4.88 12.25H1.75A1.75 1.75 0 010 10.5v-7.75z"/>
+    </svg>
+    <text x="22" y="12" class="subheading">41 Discussions &amp; Research Threads</text>
+
+    <g transform="translate(4, 26)">
+      <text x="0" y="10" class="text-muted">&#x1F5E8;&#xFE0F; 340 Comments</text>
+      <text x="180" y="10" class="text-muted">&#x2B06;&#xFE0F; 182 Upvotes from discussions</text>
+      <text x="0" y="28" class="text-muted">&#x2714;&#xFE0F; 87 Resolved Answers</text>
+      <text x="180" y="28" class="text-muted">&#x2B06;&#xFE0F; 412 Upvotes from comments</text>
+    </g>
+
+    <!-- Pill tags with lowlighter-style counts -->
+    <g transform="translate(4, 66)">
+      <!-- Announcements -->
+      <g transform="translate(0, 0)">
+        <rect width="112" height="19" rx="9.5" fill="#f0883e" fill-opacity="0.2"/>
+        <text x="56" y="13" text-anchor="middle" font-size="9.5" font-weight="600" fill="#ffa657">&#x1F4E3; Announcements 18</text>
+      </g>
+      <!-- Q&A -->
+      <g transform="translate(120, 0)">
+        <rect width="64" height="19" rx="9.5" fill="#1f6feb" fill-opacity="0.2"/>
+        <text x="32" y="13" text-anchor="middle" font-size="9.5" font-weight="600" fill="#79c0ff">&#x1F465; Q&amp;A 9</text>
+      </g>
+      <!-- Help -->
+      <g transform="translate(192, 0)">
+        <rect width="72" height="19" rx="9.5" fill="#a371f7" fill-opacity="0.2"/>
+        <text x="36" y="13" text-anchor="middle" font-size="9.5" font-weight="600" fill="#bc8cff">&#x1F9D1;&#x200D;&#x1F52C; Heuristics 4</text>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 26)">
+        <rect width="138" height="19" rx="9.5" fill="#238636" fill-opacity="0.2"/>
+        <text x="69" y="13" text-anchor="middle" font-size="9.5" font-weight="600" fill="#7ee787">&#x1F4A1; Neural Architecture 6</text>
+      </g>
+      <g transform="translate(146, 26)">
+        <rect width="84" height="19" rx="9.5" fill="#1f6feb" fill-opacity="0.2"/>
+        <text x="42" y="13" text-anchor="middle" font-size="9.5" font-weight="600" fill="#79c0ff">&#x1F4AC; General 3</text>
+      </g>
+      <g transform="translate(238, 26)">
+        <rect width="86" height="19" rx="9.5" fill="#f85149" fill-opacity="0.2"/>
+        <text x="43" y="13" text-anchor="middle" font-size="9.5" font-weight="600" fill="#ff7b72">&#x2753; Questions 2</text>
+      </g>
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 52)">
+        <rect width="104" height="19" rx="9.5" fill="#e3b341" fill-opacity="0.2"/>
+        <text x="52" y="13" text-anchor="middle" font-size="9.5" font-weight="600" fill="#e3b341">&#x1F91D; Show &amp; tell 2</text>
+      </g>
+      <g transform="translate(112, 52)">
+        <rect width="78" height="19" rx="9.5" fill="#f0883e" fill-opacity="0.2"/>
+        <text x="39" y="13" text-anchor="middle" font-size="9.5" font-weight="600" fill="#ffa657">&#x1F4A1; Ideas 3</text>
+      </g>
+      <g transform="translate(198, 52)">
+        <rect width="108" height="19" rx="9.5" fill="#238636" fill-opacity="0.2"/>
+        <text x="54" y="13" text-anchor="middle" font-size="9.5" font-weight="600" fill="#7ee787">&#x265F;&#xFE0F; Chess Heuristic 8</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 6. STARRED TOPICS (LOWLIGHTER LOGO MOSAIC GRID) -->
+  <g transform="translate(10, 645)">
     <svg width="15" height="15" viewBox="0 0 16 16" class="icon">
       <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
     </svg>
-    <text x="22" y="12" class="subheading">Fortune</text>
-    <text x="22" y="34" font-size="12" font-weight="600" fill="#39d353">Your fortune: Relentless Execution</text>
-    <text x="22" y="52" class="quote">"Hesitation is defeat." &#x2014; Isshin Ashina</text>
-    <text x="22" y="70" class="quote">"The stars are within reach &#x2014; one commit at a time."</text>
+    <text x="22" y="12" class="subheading">Starred topics</text>
+
+    <!-- Mosaic of 24 tech topics -->
+    <g transform="translate(4, 26)">
+      
+        <g transform="translate(0, 0)">
+          <rect width="44" height="20" rx="4" fill="#f7df1e" fill-opacity="0.2" stroke="#f7df1e" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#f7df1e">JS</text>
+        </g>
+        <g transform="translate(48, 0)">
+          <rect width="44" height="20" rx="4" fill="#3776ab" fill-opacity="0.2" stroke="#3776ab" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#3776ab">Py</text>
+        </g>
+        <g transform="translate(96, 0)">
+          <rect width="44" height="20" rx="4" fill="#3178c6" fill-opacity="0.2" stroke="#3178c6" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#3178c6">TS</text>
+        </g>
+        <g transform="translate(144, 0)">
+          <rect width="44" height="20" rx="4" fill="#61dafb" fill-opacity="0.2" stroke="#61dafb" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#61dafb">React</text>
+        </g>
+        <g transform="translate(192, 0)">
+          <rect width="44" height="20" rx="4" fill="#339933" fill-opacity="0.2" stroke="#339933" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#339933">Node</text>
+        </g>
+        <g transform="translate(240, 0)">
+          <rect width="44" height="20" rx="4" fill="#2496ed" fill-opacity="0.2" stroke="#2496ed" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#2496ed">Docker</text>
+        </g>
+        <g transform="translate(288, 0)">
+          <rect width="44" height="20" rx="4" fill="#fcc624" fill-opacity="0.2" stroke="#fcc624" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#fcc624">Linux</text>
+        </g>
+        <g transform="translate(336, 0)">
+          <rect width="44" height="20" rx="4" fill="#00599c" fill-opacity="0.2" stroke="#00599c" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#00599c">C++</text>
+        </g>
+        <g transform="translate(0, 26)">
+          <rect width="44" height="20" rx="4" fill="#f05032" fill-opacity="0.2" stroke="#f05032" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#f05032">Git</text>
+        </g>
+        <g transform="translate(48, 26)">
+          <rect width="44" height="20" rx="4" fill="#ffffff" fill-opacity="0.2" stroke="#ffffff" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#ffffff">Chess</text>
+        </g>
+        <g transform="translate(96, 26)">
+          <rect width="44" height="20" rx="4" fill="#ee4c2c" fill-opacity="0.2" stroke="#ee4c2c" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#ee4c2c">PyTorch</text>
+        </g>
+        <g transform="translate(144, 26)">
+          <rect width="44" height="20" rx="4" fill="#e34f26" fill-opacity="0.2" stroke="#e34f26" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#e34f26">HTML5</text>
+        </g>
+        <g transform="translate(192, 26)">
+          <rect width="44" height="20" rx="4" fill="#1572b6" fill-opacity="0.2" stroke="#1572b6" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#1572b6">CSS3</text>
+        </g>
+        <g transform="translate(240, 26)">
+          <rect width="44" height="20" rx="4" fill="#dc382d" fill-opacity="0.2" stroke="#dc382d" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#dc382d">Redis</text>
+        </g>
+        <g transform="translate(288, 26)">
+          <rect width="44" height="20" rx="4" fill="#47a248" fill-opacity="0.2" stroke="#47a248" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#47a248">Mongo</text>
+        </g>
+        <g transform="translate(336, 26)">
+          <rect width="44" height="20" rx="4" fill="#4169e1" fill-opacity="0.2" stroke="#4169e1" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#4169e1">Postgres</text>
+        </g>
+        <g transform="translate(0, 52)">
+          <rect width="44" height="20" rx="4" fill="#003b57" fill-opacity="0.2" stroke="#003b57" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#003b57">SQLite</text>
+        </g>
+        <g transform="translate(48, 52)">
+          <rect width="44" height="20" rx="4" fill="#4eaa25" fill-opacity="0.2" stroke="#4eaa25" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#4eaa25">Bash</text>
+        </g>
+        <g transform="translate(96, 52)">
+          <rect width="44" height="20" rx="4" fill="#a2aaad" fill-opacity="0.2" stroke="#a2aaad" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#a2aaad">Apple</text>
+        </g>
+        <g transform="translate(144, 52)">
+          <rect width="44" height="20" rx="4" fill="#3ddc84" fill-opacity="0.2" stroke="#3ddc84" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#3ddc84">Android</text>
+        </g>
+        <g transform="translate(192, 52)">
+          <rect width="44" height="20" rx="4" fill="#ff9900" fill-opacity="0.2" stroke="#ff9900" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#ff9900">AWS</text>
+        </g>
+        <g transform="translate(240, 52)">
+          <rect width="44" height="20" rx="4" fill="#dea584" fill-opacity="0.2" stroke="#dea584" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#dea584">Rust</text>
+        </g>
+        <g transform="translate(288, 52)">
+          <rect width="44" height="20" rx="4" fill="#00add8" fill-opacity="0.2" stroke="#00add8" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#00add8">Go</text>
+        </g>
+        <g transform="translate(336, 52)">
+          <rect width="44" height="20" rx="4" fill="#e10098" fill-opacity="0.2" stroke="#e10098" stroke-width="0.8"/>
+          <text x="22" y="14" text-anchor="middle" font-size="9" font-weight="600" fill="#e10098">GraphQL</text>
+        </g>
+    </g>
+  </g>
+
+  <!-- 7. SPONSOR / RESEARCH LAB / CURRENT PROJECTS -->
+  <g transform="translate(10, 785)">
+    <svg width="15" height="15" viewBox="0 0 16 16" class="icon">
+      <path fill-rule="evenodd" d="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.374 5.672a27.18 27.18 0 002.934 2.106.75.75 0 00.784 0 27.18 27.18 0 002.934-2.106C13.17 9.644 14.75 7.65 14.75 5.5c0-1.836-1.414-3-2.75-3-1.002 0-2.055.613-2.696 1.677a.75.75 0 01-1.308 0C7.305 3.113 6.252 2.5 4.25 2.5z"/>
+    </svg>
+    <text x="22" y="12" class="subheading">Sponsor &amp; Lab Support</text>
+
+    <g transform="translate(4, 24)">
+      <text x="0" y="10" class="text-muted">&#x2601;&#xFE0F; Compute server &amp; neural inference sponsors: <tspan fill="#c9d1d9">$120 / month</tspan></text>
+      <!-- Progress bar -->
+      <rect x="0" y="18" width="410" height="7" rx="3.5" fill="#21262d"/>
+      <rect x="0" y="18" width="290" height="7" rx="3.5" fill="#e3b341"/>
+    </g>
+
+    <!-- Currently working on -->
+    <g transform="translate(4, 62)">
+      <text x="0" y="10" class="text-main" font-weight="600">Currently working on:</text>
+
+      <g transform="translate(0, 22)">
+        <text x="0" y="10" class="text-main">&#x265F;&#xFE0F; <tspan fill="#58a6ff" font-weight="600">hlc-human-like-chess</tspan>, neural chess agent with Maia-3 79M</text>
+        <text x="18" y="24" class="text-muted">&#x2192; Conditioning move probability distributions on human Elo</text>
+
+        <text x="0" y="46" class="text-main">&#x26A1; <tspan fill="#58a6ff" font-weight="600">Wongtool</tspan>, modular systems automation &amp; developer utility engine</text>
+        <text x="18" y="60" class="text-muted">&#x2192; High-performance CLI and developer productivity toolset</text>
+
+        <text x="0" y="82" class="text-main">&#x1F3AC; <tspan fill="#58a6ff" font-weight="600">Entertainment-aggregator</tspan>, multimedia stream aggregation pipeline</text>
+
+        <text x="0" y="106" class="text-main">&#x1F441;&#xFE0F; <tspan fill="#58a6ff" font-weight="600">AI-Media-Operator</tspan>, vision-driven autonomous workflow operator</text>
+      </g>
+    </g>
   </g>
 </svg>
