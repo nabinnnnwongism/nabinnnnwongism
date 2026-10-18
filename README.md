@@ -22,7 +22,7 @@
 <br clear="both" />
 <br />
 
-[<img width="100%" alt="Philosophical Maxims" src="manga_panel.svg">](#)
+[<img width="100%" alt="Profile Banner" src="banner.svg">](#)
 
 <br clear="both" />
 
