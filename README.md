@@ -16,12 +16,12 @@
 > - ⚡ **Systems Utility**: High-performance modular developer engine ([`Wongtool`](https://github.com/nabinnnnwongism/Wongtool))
 > - ♟️ **Live Bot**: Running on Lichess as an autonomous BOT account [`@MyHLCBot`](https://lichess.org/@/MyHLCBot)
 
-[<img align="left" width="49%" alt="Engineering &amp; Systems Architecture" src="engineering.svg">](#)
-[<img align="right" width="49%" alt="Media, Characters &amp; Audio Curations" src="medias.svg">](#)
+<img align="left" width="48%" alt="Engineering &amp; Systems Architecture" src="engineering.svg" /><img align="right" width="48%" alt="Media, Characters &amp; Audio Curations" src="medias.svg" />
 
 <br clear="both" />
+<br />
 
-[<img width="100%" alt="Philosophical Maxims" src="manga_panel.svg">](#)
+<img width="100%" alt="Philosophical Maxims" src="manga_panel.svg" />
 
 <br clear="both" />
 
